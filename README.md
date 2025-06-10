@@ -13,7 +13,7 @@ Joaquín Wolde Cepeda
 Profesor: Eliana Jackeline Vivas Rafael  
 Fecha: 09-06-2025
 
-1. # **Descripción del problema.**
+1. ## **Descripción del problema.**
 
 FaceToQR Access System es una aplicación web creada en el marco del curso Programación Profesional de la Facultad de Ingeniería y Ciencias de la Universidad Adolfo Ibáñez (UAI). Su propósito es proveer un control de acceso integral y robusto que combine reconocimiento facial y códigos QR dinámicos, de modo que cada usuario pueda identificarse con su rostro (el método principal) o, si éste fallase, con un QR personal que se renueva automáticamente en periodo de tiempo establecido. El cliente inicial es la UAI (entendida como organización académica que administra salas de clase, laboratorios y dependencias restringidas a estudiantes, profesores y visitantes), pero la solución está diseñada para escalar a empresas o edificios corporativos que requieran un nivel similar de seguridad.
 
@@ -100,7 +100,7 @@ Desde el navegador, el usuario interactúa con la interfaz, que se comunica con 
 
 *Figura 2: Diagrama de componentes del backend de FaceToQR con módulos de autenticación, QR, permisos y acceso biométrico.*
 
-3. ### **Análisis de arquitectura empresarial.**
+3. ## **Análisis de arquitectura empresarial.**
 
 El cliente principal del sistema FaceToQR es la Universidad Adolfo Ibáñez, específicamente las unidades responsables de la administración de campus y edificios, así como los departamentos de tecnología y seguridad institucional. Los principales stakeholders son:
 
@@ -229,7 +229,7 @@ La definición de requerimientos permite establecer las funciones esenciales y l
 | RNF 10 | El sistema debe cargar completamente en menos de 3 segundos en dispositivos modernos | Experiencia de usuario | Mejora la percepción del sistema y reduce el abandono del mismo  |
 
 
-5. # **Perfil operacional.**
+5. ## **Perfil operacional.**
 
 El sistema FaceToQR está diseñado para operar en contextos de control de acceso académico y corporativo, combinando autenticación biométrica con códigos QR dinámicos. A continuación, se describe su entorno de operación:
 
