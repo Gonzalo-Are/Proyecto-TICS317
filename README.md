@@ -54,7 +54,11 @@ La arquitectura del sistema se basa en una aplicación web full stack desarrolla
 * Azure Blob Storage: Almacena imágenes de rostros subidas por los usuarios o capturadas en tiempo real.
 
 Este nivel permite visualizar cómo se distribuyen las responsabilidades entre los distintos contenedores y cómo se comunican entre sí a través de interfaces bien definidas.
+
+
 <img src="Imagenes/Figura1.png" />
+
+
 ![][Imagenes/Figura1.png]  
 *Figura 1: Diagrama de contexto  de FaceToQR. Muestra la interacción entre usuarios, frontend, backend y servicios externos como Clerk, Azure y Neon.*
 
