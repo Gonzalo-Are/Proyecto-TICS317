@@ -186,7 +186,7 @@ Se realizó una entrevista a un miembro del equipo de operaciones de campus, don
 **Fragmento destacado de la entrevista realizada en la universidad:**  
  	*"Actualmente perdemos tiempo verificando manualmente las identidades. Un sistema que valide rostros automáticamente o que genere QR seguros sería una tremenda mejora."*
 
-     **4\. Requerimientos**
+**4\. Requerimientos**
 
 La definición de requerimientos permite establecer las funciones esenciales y las condiciones operativas que debe cumplir la aplicación para garantizar un control de acceso seguro, eficiente y adaptable a distintos entornos. Esta sección distingue entre requerimientos funcionales, aquellos que describen comportamientos y capacidades concretas del sistema y no funcionales, aquellos que imponen restricciones o atributos de calidad como rendimiento, seguridad y escalabilidad. Cada requisito se presenta acompañado de una breve justificación, en función del contexto de uso y de las decisiones arquitectónicas adoptadas en el desarrollo.
 
@@ -348,7 +348,7 @@ Los escenarios anteriores fueron mapeados a decisiones arquitectónicas ya imple
 
 Se concluyó que la arquitectura actual es coherente con las exigencias del sistema, aunque algunas decisiones implican riesgos latentes que deben monitorearse.
 
-     **7\. Análisis de brechas** 
+**7\. Análisis de brechas** 
 
 A partir de los escenarios anteriores y de la revisión arquitectónica, se identificaron las siguientes brechas:
 
