@@ -54,7 +54,9 @@ La arquitectura del sistema se basa en una aplicación web full stack desarrolla
 * Azure Blob Storage: Almacena imágenes de rostros subidas por los usuarios o capturadas en tiempo real.
 
 Este nivel permite visualizar cómo se distribuyen las responsabilidades entre los distintos contenedores y cómo se comunican entre sí a través de interfaces bien definidas.
-
+<img src="Imagenes/Figura1.png"
+	width="200"
+	style="float: left; margin-right: 10px;" />
 ![][Imagenes/Figura1.png]  
 *Figura 1: Diagrama de contexto  de FaceToQR. Muestra la interacción entre usuarios, frontend, backend y servicios externos como Clerk, Azure y Neon.*
 
@@ -90,6 +92,9 @@ El sistema FaceToQR opera completamente en la nube, permitiendo una gestión efi
 
 Desde el navegador, el usuario interactúa con la interfaz, que se comunica con la API, válida identidades con Clerk, y accede a Azure y Neon según sea necesario. Esta arquitectura permite alta disponibilidad, escalabilidad y separación clara de responsabilidades.
 
+<img src="Imagenes/Figura2.png"
+	width="200"
+	style="float: left; margin-right: 10px;" />
 ![][Imagenes/Figura2.png]  
 *Figura 2: Diagrama de componentes del backend de FaceToQR con módulos de autenticación, QR, permisos y acceso biométrico.*
 
@@ -117,6 +122,9 @@ Los objetivos estratégicos de la universidad que este sistema busca apoyar son:
 
 El siguiente diagrama motivacional muestra cómo los actores relevantes (estudiantes, administradores y área TI) se vinculan con los objetivos estratégicos y los drivers que impulsan el desarrollo del sistema FaceToQR:
 
+<img src="Imagenes/Figura3.jpg"
+	width="200"
+	style="float: left; margin-right: 10px;" />
 ![][Imagenes/Figura3.jpg]
 
 *Figura 3: “Diagrama motivacional del sistema FaceToQR en notación ArchiMate: relación entre actores, drivers y objetivos estratégicos institucionales”*
@@ -141,6 +149,9 @@ Para ilustrar cómo el sistema FaceToQR se alinea con la arquitectura empresaria
 
 * Monitoreo y soporte: actualmente en etapa de propuesta (ver análisis de brechas).
 
+<img src="Imagenes/Figura4.jpg"
+	width="200"
+	style="float: left; margin-right: 10px;" />
   ![][Imagenes/Figura4.jpg]
 
   *Figura 4: “Diagrama de arquitectura empresarial del sistema FaceToQR: integración de actores, servicios, procesos, software e infraestructura”*
@@ -176,6 +187,9 @@ Se realizó una entrevista anónima a un miembro del equipo de operaciones de ca
 
 La definición de requerimientos permite establecer las funciones esenciales y las condiciones operativas que debe cumplir la aplicación para garantizar un control de acceso seguro, eficiente y adaptable a distintos entornos. Esta sección distingue entre requerimientos funcionales, aquellos que describen comportamientos y capacidades concretas del sistema y no funcionales, aquellos que imponen restricciones o atributos de calidad como rendimiento, seguridad y escalabilidad. Cada requisito se presenta acompañado de una breve justificación, en función del contexto de uso y de las decisiones arquitectónicas adoptadas en el desarrollo.
 
+<img src="Imagenes/Figura5.jpg"
+	width="200"
+	style="float: left; margin-right: 10px;" />
 ![][Imagenes/Figura5.jpg]
 *Figura 5: Diagrama de despliegue híbrido del sistema FaceToQR Access System.*
 
