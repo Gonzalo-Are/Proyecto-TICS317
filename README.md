@@ -228,7 +228,8 @@ La definición de requerimientos permite establecer las funciones esenciales y l
 | RNF 9 | El sistema debe registrar logs de intentos de acceso exitosos y fallidos  | Trazabilidad  | Permite seguimiento y mejora la seguridad  |
 | RNF 10 | El sistema debe cargar completamente en menos de 3 segundos en dispositivos modernos | Experiencia de usuario | Mejora la percepción del sistema y reduce el abandono del mismo  |
 
-#####      **5\. Perfil operacional.**
+
+5. # **Perfil operacional.**
 
 El sistema FaceToQR está diseñado para operar en contextos de control de acceso académico y corporativo, combinando autenticación biométrica con códigos QR dinámicos. A continuación, se describe su entorno de operación:
 
@@ -261,7 +262,10 @@ El sistema FaceToQR está diseñado para operar en contextos de control de acces
 
 * Su arquitectura modular permite reemplazar el motor de reconocimiento facial sin afectar al resto del sistema (RNF 6).
 
-######    **6\. Aplicación de ATAM: Cronología y Actividades**
+
+6. # **Aplicación de ATAM: Cronología y Actividades.**
+
+
 
 Con el fin de evaluar la arquitectura de FaceToQR Access System en función de sus atributos de calidad más relevantes, se aplicó el método ATAM (Architecture Tradeoff Analysis Method). Esta metodología permitió identificar escenarios críticos, priorizar atributos como seguridad, disponibilidad, rendimiento, escalabilidad y mantenibilidad, y analizar cómo las decisiones arquitectónicas actuales responden a los requerimientos del sistema. A continuación, se presenta la cronología de actividades y escenarios desarrollados durante esta aplicación.
 
