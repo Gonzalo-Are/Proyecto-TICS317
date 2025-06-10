@@ -263,7 +263,7 @@ El sistema FaceToQR está diseñado para operar en contextos de control de acces
 * Su arquitectura modular permite reemplazar el motor de reconocimiento facial sin afectar al resto del sistema (RNF 6).
 
 
-6. # **Aplicación de ATAM: Cronología y Actividades.**
+6. ## **Aplicación de ATAM: Cronología y Actividades.**
 
 
 
