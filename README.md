@@ -126,7 +126,7 @@ El siguiente diagrama motivacional muestra cómo los actores relevantes (estudia
 
 
 
-<img src="Imagenes/Figura2.png" />
+<img src="Imagenes/Figura3.png" />
 
 
 
