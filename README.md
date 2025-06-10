@@ -10,7 +10,7 @@ Agustín Ignacio de la Vega Espinoza
 Antonia Paz Solís Cáceres  
 Joaquín Wolde Cepeda
 
-ProfesorA: Eliana Jackeline Vivas Rafael  
+Profesor: Eliana Jackeline Vivas Rafael  
 Fecha: 09-06-2025
 
 1. # **Descripción del problema.**
@@ -126,8 +126,7 @@ El siguiente diagrama motivacional muestra cómo los actores relevantes (estudia
 
 
 
-<img src="Imagenes/Figura3.jpg"/>
-
+<img src="Imagenes/Figura2.png" />
 
 
 
@@ -136,8 +135,6 @@ El siguiente diagrama motivacional muestra cómo los actores relevantes (estudia
 **Diagrama de Capas (7 capas)**
 
 Para ilustrar cómo el sistema FaceToQR se alinea con la arquitectura empresarial, se utilizó el enfoque de 7 capas, similar al aplicado en el informe del sistema PoCLLM. El modelo incluye:
-
-* 
 
 * Roles y actores externos: Estudiante y Administrador de Campus.
 
@@ -159,7 +156,8 @@ Para ilustrar cómo el sistema FaceToQR se alinea con la arquitectura empresaria
 
 
 
-  *Figura 4: “Diagrama de arquitectura empresarial del sistema FaceToQR: integración de actores, servicios, procesos, software e infraestructura”*
+
+*Figura 4: “Diagrama de arquitectura empresarial del sistema FaceToQR: integración de actores, servicios, procesos, software e infraestructura”*
 
 #### **Explicación del modelo de capas**
 
@@ -175,9 +173,9 @@ Cada capa representa un nivel de abstracción diferente, facilitando el análisi
 
 * Finalmente, los componentes se ejecutan sobre una infraestructura cloud (Vercel, Azure, Neon).
 
-**Entrevista anónima de validación**
+**Entrevista de validación**
 
-Se realizó una entrevista anónima a un miembro del equipo de operaciones de campus, donde se validó que:
+Se realizó una entrevista a un miembro del equipo de operaciones de campus, donde se validó que:
 
 * El sistema resuelve una necesidad real de trazabilidad y control seguro de acceso.
 
@@ -186,7 +184,7 @@ Se realizó una entrevista anónima a un miembro del equipo de operaciones de ca
 * La gestión de permisos desde un panel web es una mejora sustancial respecto al uso de listas manuales o WhatsApp.
 
 **Fragmento destacado de la entrevista realizada en la universidad:**  
- 	*"Actualmente perdemos tiempo verificando manualmente las identidades. Un sistema que valide rostros automáticamente o que genere QR seguros sería una tremenda mejora. Además, podríamos controlar permisos para eventos o zonas restringidas, algo que hoy no es posible."*
+ 	*"Actualmente perdemos tiempo verificando manualmente las identidades. Un sistema que valide rostros automáticamente o que genere QR seguros sería una tremenda mejora."*
 
      **4\. Requerimientos**
 
@@ -195,6 +193,7 @@ La definición de requerimientos permite establecer las funciones esenciales y l
 
 
 <img src="Imagenes/Figura5.jpg"/>
+
 
 
 *Figura 5: Diagrama de despliegue híbrido del sistema FaceToQR Access System.*
